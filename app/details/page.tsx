@@ -7,7 +7,7 @@ import ImageSlider from "./ImageSlider";
 import ReactStars from "react-rating-stars-component";
 
 
-export default function Details(params) {
+export default function Details(params:any) {
     const product = params.searchParams;
     const slides = params.searchParams.images.length>0?params.searchParams.images.map(item => ({ "url": item })):""  ;
     const containerStyles = {
