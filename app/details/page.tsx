@@ -2,7 +2,10 @@
 import React from 'react';
 import "yet-another-react-lightbox/styles.css";
 import ImageSlider from "./ImageSlider";
+
+//@ts-ignore
 import ReactStars from "react-rating-stars-component";
+
 
 export default function Details(params) {
     const product = params.searchParams;
