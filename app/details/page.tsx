@@ -9,7 +9,7 @@ import ReactStars from "react-rating-stars-component";
 
 export default function Details(params:any) {
     const product = params.searchParams;
-    const slides = params.searchParams.images.length>0?params.searchParams.images.map(item => ({ "url": item })):""  ;
+    const slides = params.searchParams.images.length>0?params.searchParams.images.map((item: any) => ({ "url": item })):""  ;
     const containerStyles = {
         width: "80%",
         height: "400px",
